@@ -1,5 +1,5 @@
 
-start locator --name=locator --properties-file=gemfire.properties --initial-heap=50m --max-heap=50m
+start locator --name=locator --properties-file=gemfire.properties --initial-heap=500m --max-heap=500m
 
 set variable --name=CP --value=../../build/classes/java/main:../../../domain/build/classes/java/main
 
